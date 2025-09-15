@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background: linear-gradient(white,black);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+nav {
+    background: black;
+    color: white;
+    padding: 10px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    gap: 8rem;
+}
+nav .logo {
+    color: brown;
+    font-size: 20px;
+}
+nav li a {
+    padding:10px 20px;
+    font-weight: 500;
+    text-align: center;
+    transition: 0.4s ease-in-out;
+    
+
+
+}
+nav li:hover a {
+    color: black;
+    background: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+input[type = text]{
+    width: 200px;
+    height: 30px;
+    color: black;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight:500;
+    margin: 10px;
+margin-left: 150px;
+
+}
+a {
+    color:white;
+    background: black;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight:500;
+    margin-right:30px ;
+}
+
+.home {
+    height:90vh;
+    width: 100vw;
+    background-image: url(about.jpg);
+    background-repeat:repeat;
+    background-size: cover;
+}
+h1 {
+    color: white;
+    font-size:9vw;
+    margin: 20px;
+    padding: 30px;
+}
+.about {
+    background:linear-gradient(to top ,coral,white);
+    height: 700px;
+    margin: 0 auto;
+}
+h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.contact {
+
+    background:linear-gradient(to top,black,white);
+     height: 500px;
+    margin: 0 auto;
+
+}
+.login-box{
+    border: 1px solid black;
+    height: 400px;
+    width: 300px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+#box{
+    margin:20px;
+    padding: 10px;
+}
+input[type = Password] {
+     margin:20px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+}
+
+
+
