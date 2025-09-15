@@ -1,0 +1,72 @@
+@media screen and (min-width:600px) and (orientation:landscape) and (min-width:600px),(orientation: portrait) {
+    
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+}
+
+body{
+    background: linear-gradient(to top,red,black);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.logo{
+    color: brown;
+    font-size: 30px;
+}
+
+input[type = text]{
+    border:1px solid gray;
+    background: none;
+    border-radius: 20px;
+    width: 500px;
+    height: 40px;
+    margin-left: 30em;
+    font-size: 15px;
+    color: white;
+    padding: 15px;
+}
+
+h1{
+    color: white;
+    font-size: 7em;
+text-align: center;
+margin-top: 80px;
+padding: 10px;
+font-weight: 400;
+}
+.page {
+    border: 1px solid black;
+    height: 60px;
+    max-width: 90em;
+    margin: 0 auto;
+display: flex;
+justify-content:space-around;
+align-items: center;
+margin-top: 190px;
+background: black;
+
+}
+
+a{
+    color: white;
+    font-size: 15px;
+    border-right:1px solid black;
+    height: 50px;
+    text-align: center;
+    padding: 12px;
+    margin: 2px;
+    font-weight:400;
+
+}
+a:first-child{
+     border-right: none;
+}
+a:last-child{
+    border-right: none;
+}
